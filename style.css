@@ -1,0 +1,473 @@
+/*-----------------------------------home---------------------------------------------------------------*/
+
+#background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #272d4e;
+  background: none;
+  border: none;
+  margin-left: 10%;
+}
+
+.basShop {
+  background-color: #8122b3;
+  padding: 2%;
+  border-radius: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.shopButton {
+  color: #ffffff;
+  background-color: #8122b3;
+  border: #f2f2f2 solid 2px;
+  border-radius: 20px;
+  padding: 1%;
+  height: 50px;
+}
+
+.shopButton:hover {
+  background-color: #ba3bff;
+}
+
+#active {
+  color: #9a7dff;
+}
+
+.Cats {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+}
+
+#barre {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#FirstCats {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16.7%;
+}
+
+.taille1 {
+  width: 65%;
+  height: auto;
+}
+
+.taille2 {
+  width: 75%;
+  height: auto;
+}
+
+.LOL {
+  width: 16.5%;
+  height: auto;
+  margin-left: -1.5%;
+}
+
+.Espace {
+  margin-bottom: 4%;
+}
+
+/* Page Home CSS */
+.AlignementHorizontal {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7%;
+}
+
+.AlignementVertical {
+  display: flex;
+  flex-direction: column;
+}
+
+#titre {
+  display: flex;
+  width: 600px;
+  height: 150px;
+  margin-top: 8%;
+}
+
+.centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.police {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  color: #272d4e;
+}
+
+.police2 {
+  margin-top: 5%;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #8122b3;
+}
+
+#catHome {
+  display: flex;
+  width: 45%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.soustitre {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #94a2b3;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 80%;
+  height: auto;
+}
+
+.text1photo {
+  width: 65%;
+  height: 50px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 50px;
+  color: #272d4e;
+}
+
+.text2photo {
+  width: 65%;
+  height: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94a2b3;
+}
+
+#espacephoto1 {
+  margin-top: 10%;
+}
+
+#espacephoto2 {
+  margin-top: 30%;
+}
+
+.AlignementHorizontal2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#bas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  align-items: center;
+}
+#pied {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.pied2 {
+  margin-right: 100px;
+}
+
+/*---------------------------- Page BrowseCatFluencers ---------------------------------------*/
+
+#catsLibrairy {
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contenant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+  border-radius: 50px;
+  width: 20%;
+  margin-top: 3%;
+}
+
+.tailleimg {
+  width: 100%;
+}
+
+.texte_haut {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #272d4e;
+}
+
+.texte_milieu {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #94a2b3;
+}
+
+.texte_bas {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+
+  color: #8122b3;
+}
+
+/* Page TOP 5 -------------------------------------------------------------------------------------*/
+
+.contenant2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+  border-radius: 50px;
+  width: 65%;
+}
+#topLibrairy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.texte_hautG {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #94a2b3;
+  padding-top: 0.75%;
+  margin-left: 2%;
+}
+
+.texte_hautD {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 50%;
+  color: #8122b3;
+}
+
+.chiffresCles {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.chiffre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #272d4e;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #272d4e;
+}
+
+.iconChiffres {
+  height: 30px;
+  width: auto;
+}
+
+.lineViolette {
+  height: 0px;
+  width: 65%;
+  border: solid 0.5px #9a7dff;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: #272d4e;
+}
+
+.promotions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.promotionsImg {
+  width: 345px;
+  height: auto;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: #272d4e;
+}
+
+.dataContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 2%;
+  width: 28%;
+  box-shadow: -0.2em 0.2em 2em 0.4em rgba(112, 112, 112, 0.216);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  color: #272d4e;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #94a2b3;
+}
+
+.iconReseau {
+  width: 20px;
+  height: 20px;
+}
+
+.reseaux {
+  display: flex;
+  flex-direction: row;
+}
+
+b {
+  color: #9a7dff;
+}
+
+#tiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+}
+
+/*-----------------------------------index---------------------------------------------------------------*/
+
+#rectangle {
+  margin-left: 18%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 30px;
+  padding: 2%;
+  width: 60%;
+}
+
+#username {
+  width: 50%;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  border-radius: 60px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+#pwd {
+  width: 50%;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  border-radius: 60px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#login_button {
+  width: 30%;
+  height: 50px;
+
+  background: #8122b3;
+  border-radius: 60px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#login_button:hover {
+  background: #a62ce8;
+}

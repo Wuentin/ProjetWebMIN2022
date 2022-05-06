@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Home page</title>
+    <script type="text/javascript">
+      function linkBrowse() {
+        document.location.href = "browsecatfluencers.html";
+      }
+      function linkTop5() {
+        document.location.href = "top5catfluencers.html";
+      }
+      function linkHome() {
+        document.location.href = "home.html";
+      }
+      function linkLogin() {
+        document.location.href = "index.html";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="background">
+      <img src="logo-1.png" id="logo1" alt="Logo" onclick="linkHome()" />
+      <button id="active" class="button" onclick="linkHome()">Home</button>
+      <button class="button" onclick="linkBrowse()">Browse Catfluencers</button>
+      <button class="button" onclick="linkTop5()">Top 5 Catfluencers</button>
+      <button class="button" onclick="linkLogin()">Login</button>
+    </div>
+
+    <div class="AlignementHorizontal">
+      <div class="AlignementVertical">
+        <p id="titre" class="police">
+          Instantly promote your music or brand on TikTok with one click.
+        </p>
+        <p class="soustitre">
+          Today, no more human influencers, welcome to the future of promotion:
+          Catfluencers ! Influee is the first French company specialized in
+          promoting your brand and music.
+        </p>
+        <a href="browsecatfluencers.html"
+          ><img src="Cats/buttonGetStarted.png" width="25%"
+        /></a>
+      </div>
+      <img src="Cats/cat_home.jpg" id="catHome" />
+    </div>
+    <div class="centre">
+      <p class="police2">HOW IT WORKS</p>
+      <p class="police">Getting started is so simple.</p>
+    </div>
+
+    <div class="AlignementHorizontal2">
+      <div class="box">
+        <img class="photo" src="Cats/photo1.png" />
+        <p class="text1photo">Let’s get your music or brand poppin'</p>
+        <p class="text2photo">
+          If you want to highlight your music, nothing could be easier. We will
+          help you to use your social networks and use facebookAd to maximize
+          your profits
+        </p>
+      </div>
+      <div class="box">
+        <img class="photo" id="espacephoto1" src="Cats/photo2.png" />
+        <p class="text1photo">Promote with a catfluencer.</p>
+        <p class="text2photo">
+          We provide you with a panel of catfluencers ready to promote your
+          products on their own networks. Imagine the impact of our catfluencers
+          with their millions of subscribers.
+        </p>
+      </div>
+      <div class="box">
+        <img class="photo" id="espacephoto2" src="Cats/photo3.png" />
+        <p class="text1photo">Growth!</p>
+        <p class="text2photo">
+          Our technical team is at your disposal to make your life easier. Need
+          an assembly ? A training ? You will find this feature very soon on our
+          website.
+        </p>
+      </div>
+    </div>
+
+    <div id="bas">
+      <div class="basShop">
+        <h4 class="white">
+          Are you ready to take your music or brand to a viral level?
+        </h4>
+        <button class="shopButton" onclick="linkBrowse()">
+          SHOP INFLUENCERS
+        </button>
+      </div>
+
+      <img src="logo-1.png" width="10%" />
+      <div id="pied">
+        <p class="pied2">Terms Of Service</p>
+        <p class="pied2">User Agreement</p>
+        <p class="pied2">FAQ</p>
+        <p class="pied2">Contact Us</p>
+        <p class="pied2">support@catfluencers.com</p>
+      </div>
+    </div>
+  </body>
+</html>
